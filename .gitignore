@@ -1,0 +1,39 @@
+# Xcode / iOS
+
+## XcodeGen output (regenerated from project.yml)
+*.xcodeproj/
+*.xcworkspace/
+
+## Build products
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## User-specific Xcode
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+## Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+## CocoaPods (not used, but just in case)
+Pods/
+
+# Signing assets — NEVER commit these
+*.p12
+*.mobileprovision
+*.cer
+*.certSigningRequest
+*.p8
+ExportOptions.plist
+
+# Misc
+.DS_Store
+*.log
